@@ -65,13 +65,14 @@
             
             @if ($image)
                 <div style="margin-top: 10px;">
-                    <p>Preview:</p>
-                    <img src="{{ $image->temporaryUrl() }}" alt="Preview" style="max-width: 200px; border-radius: 8px;">
+                    <p style="font-weight: 600; margin-bottom: 8px;">Preview Gambar Baru:</p>
+                    <img src="{{ $image->temporaryUrl() }}" alt="Preview" style="max-width: 300px; max-height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
                 </div>
-            @elseif($image_path)
+            @elseif($existing_image)
                 <div style="margin-top: 10px;">
-                    <p>Current Image:</p>
-                    <img src="{{ asset('storage/' . $image_path) }}" alt="Current" style="max-width: 200px; border-radius: 8px;">
+                    <p style="font-weight: 600; margin-bottom: 8px;">Gambar Saat Ini:</p>
+                    <img src="{{ asset('storage/' . $existing_image) }}" alt="Current" style="max-width: 300px; max-height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <p style="font-size: 12px; color: #6B7280; margin-top: 5px;">Upload gambar baru untuk mengubah</p>
                 </div>
             @endif
         </div>
