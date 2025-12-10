@@ -7,8 +7,14 @@
 @section('og_description', 'Solusi teknologi inovatif untuk transformasi digital Indonesia dengan produk unggulan seperti HT Android, K3 Monitoring, Smartpole IKN, AI Solutions, dan lebih banyak lagi.')
 
 @section('content')
-<!-- Hero Section -->
+<!-- Hero Section with Animations -->
 <section class="modern-hero">
+    <!-- Animated Background Particles -->
+    <div class="hero-particle hexagon"></div>
+    <div class="hero-particle circle"></div>
+    <div class="hero-particle square"></div>
+    <div class="hero-gradient-pulse"></div>
+    
     <div class="modern-container">
         <div class="fade-in-up">
             <h1>Inovasi Teknologi untuk Masa Depan Indonesia</h1>
@@ -367,31 +373,85 @@
     </div>
 </section>
 
-<!-- Trust Badges / Client Logos -->
-<section class="modern-section" style="background: var(--light); padding: 3rem 0;">
+<!-- Trust Badges / Client Companies -->
+<section class="modern-section" style="background: var(--light); padding: 4rem 0;">
     <div class="modern-container">
-        <div class="text-center" style="margin-bottom: 2rem;">
-            <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--dark); margin-bottom: 0.5rem;">Dipercaya Oleh</h3>
-            <p style="color: var(--text-light);">Berbagai perusahaan dan instansi terkemuka di Indonesia</p>
+        <div class="modern-section-header">
+            <h2 class="modern-section-title">Dipercaya Oleh</h2>
+            <p class="modern-section-subtitle">Berbagai perusahaan dan instansi terkemuka di Indonesia yang telah mempercayai solusi teknologi kami</p>
         </div>
-        <div class="client-logos">
-            <div class="client-logo-item">
-                <div class="client-badge">PLN Indonesia Power</div>
+        
+        <div class="client-company-grid">
+            <!-- Client 1: PLN Indonesia Power -->
+            <div class="client-company-card">
+                <div class="client-logo-placeholder">
+                    <i class='bx bx-bolt'></i>
+                </div>
+                <h3 class="client-company-name">PLN Indonesia Power</h3>
+                <span class="client-industry-tag">Energy Sector</span>
+                <p class="client-company-description">
+                    BUMN yang bergerak di bidang pembangkit tenaga listrik dengan kapasitas 7,000+ MW. Menggunakan Dashboard Monitoring PLN untuk optimasi operasional.
+                </p>
             </div>
-            <div class="client-logo-item">
-                <div class="client-badge">IKN Nusantara</div>
+            
+            <!-- Client 2: IKN Nusantara -->
+            <div class="client-company-card">
+                <div class="client-logo-placeholder">
+                    <i class='bx bx-buildings'></i>
+                </div>
+                <h3 class="client-company-name">IKN Nusantara</h3>
+                <span class="client-industry-tag">Smart City</span>
+                <p class="client-company-description">
+                    Proyek ibu kota negara Indonesia yang menerapkan konsep smart city modern. Implementasi Smartpole untuk infrastruktur digital terintegrasi.
+                </p>
             </div>
-            <div class="client-logo-item">
-                <div class="client-badge">Industri Manufaktur</div>
+            
+            <!-- Client 3: Industri Manufaktur -->
+            <div class="client-company-card">
+                <div class="client-logo-placeholder">
+                    <i class='bx bx-cog'></i>
+                </div>
+                <h3 class="client-company-name">PT Industri Manufaktur</h3>
+                <span class="client-industry-tag">Manufacturing</span>
+                <p class="client-company-description">
+                    Perusahaan manufaktur dengan 500+ karyawan dan sertifikasi ISO. Menggunakan K3 Monitoring System untuk keselamatan kerja dan compliance.
+                </p>
             </div>
-            <div class="client-logo-item">
-                <div class="client-badge">Sektor Perbankan</div>
+            
+            <!-- Client 4: Bank Nusantara -->
+            <div class="client-company-card">
+                <div class="client-logo-placeholder">
+                    <i class='bx bx-bank'></i>
+                </div>
+                <h3 class="client-company-name">Bank Nusantara</h3>
+                <span class="client-industry-tag">Banking</span>
+                <p class="client-company-description">
+                    Institusi perbankan dengan 50+ cabang di seluruh Indonesia. Implementasi Visitor Management System untuk keamanan dan profesionalitas kantor.
+                </p>
             </div>
-            <div class="client-logo-item">
-                <div class="client-badge">Petrokimia</div>
+            
+            <!-- Client 5: PT Petrokimia -->
+            <div class="client-company-card">
+                <div class="client-logo-placeholder">
+                    <i class='bx bx-droplet'></i>
+                </div>
+                <h3 class="client-company-name">PT Petrokimia</h3>
+                <span class="client-industry-tag">Petrochemical</span>
+                <p class="client-company-description">
+                    Perusahaan petrokimia dengan fokus tinggi pada industrial safety. Menggunakan AI Smoke/Fire Detection untuk deteksi dini bahaya kebakaran.
+                </p>
             </div>
-            <div class="client-logo-item">
-                <div class="client-badge">Logistik</div>
+            
+            <!-- Client 6: PT Logistik Nusantara -->
+            <div class="client-company-card">
+                <div class="client-logo-placeholder">
+                    <i class='bx bx-package'></i>
+                </div>
+                <h3 class="client-company-name">PT Logistik Nusantara</h3>
+                <span class="client-industry-tag">Logistics</span>
+                <p class="client-company-description">
+                    Perusahaan logistik dengan jaringan distribusi nasional. Menggunakan Mobile Presence App untuk tracking kehadiran karyawan di berbagai lokasi.
+                </p>
             </div>
         </div>
     </div>
