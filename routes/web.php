@@ -37,7 +37,7 @@ Route::get('/products/{product:slug}', [ProductController::class, 'show'])->name
 
 // SEO Routes
 Route::get('/sitemap.xml', function() {
-    $products = \App\Models\Product::all();
+    $products = \App\Models\Product::select('slug', 'updated_at')->get();
     
     $content = '<?xml version="1.0" encoding="UTF-8"?>';
     $content .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
@@ -64,7 +64,7 @@ Route::get('/sitemap.xml', function() {
     // Products
     foreach($products as $product) {
         $content .= '<url>';
-        $content .= '<loc>' . route('products.show', $product->slug) . '</loc>';
+        $content .= '<loc>' . e(route('products.show', $product->slug)) . '</loc>';
         $content .= '<lastmod>' . $product->updated_at->toAtomString() . '</lastmod>';
         $content .= '<changefreq>monthly</changefreq>';
         $content .= '<priority>0.7</priority>';

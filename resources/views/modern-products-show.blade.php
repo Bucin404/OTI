@@ -1,10 +1,10 @@
 @extends('modern-parent')
 
-@section('title', $product->title . ' - PT. OME TEKNOLOGI INDONESIA')
-@section('meta_description', $product->summary ?? Str::limit(strip_tags($product->description), 155))
-@section('meta_keywords', $product->tech_stack . ', ' . $product->title . ', OTI indonesia, produk teknologi')
-@section('og_title', $product->title . ' - OTI Indonesia')
-@section('og_description', $product->summary ?? Str::limit(strip_tags($product->description), 155))
+@section('title', e($product->title) . ' - PT. OME TEKNOLOGI INDONESIA')
+@section('meta_description', e($product->summary ?? Str::limit(strip_tags($product->description), 155)))
+@section('meta_keywords', e($product->tech_stack) . ', ' . e($product->title) . ', OTI indonesia, produk teknologi')
+@section('og_title', e($product->title) . ' - OTI Indonesia')
+@section('og_description', e($product->summary ?? Str::limit(strip_tags($product->description), 155)))
 @section('og_image', $product->image_path ? asset('storage/' . $product->image_path) : asset('assets/img/oti-logo.png'))
 
 @section('content')

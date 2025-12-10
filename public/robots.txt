@@ -8,8 +8,8 @@ Allow: /contact
 Disallow: /admin
 Disallow: /admin/*
 
-# Sitemap location
-Sitemap: {{ url('/sitemap.xml') }}
+# Sitemap location (update with your actual domain)
+Sitemap: /sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
