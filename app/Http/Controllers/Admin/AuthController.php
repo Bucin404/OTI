@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
@@ -24,13 +25,17 @@ class AuthController extends Controller
             'password' => 'required',
         ]);
 
-        // Simple admin credentials (you should use database in production)
-        $adminUsername = env('ADMIN_USERNAME', 'admin');
-        $adminPassword = env('ADMIN_PASSWORD', 'admin123');
+        // Try to find admin user in database
+        $admin = Admin::where('username', $request->username)->first();
 
-        if ($request->username === $adminUsername && $request->password === $adminPassword) {
-            session(['admin_logged_in' => true, 'admin_username' => $request->username]);
-            return redirect()->route('admin.dashboard')->with('success', 'Selamat datang, Admin!');
+        if ($admin && $admin->checkPassword($request->password)) {
+            session([
+                'admin_logged_in' => true, 
+                'admin_username' => $admin->username,
+                'admin_id' => $admin->id,
+                'admin_name' => $admin->name
+            ]);
+            return redirect()->route('admin.dashboard')->with('success', 'Selamat datang, ' . $admin->name . '!');
         }
 
         return back()->withErrors(['error' => 'Username atau password salah!'])->withInput();
@@ -38,7 +43,7 @@ class AuthController extends Controller
 
     public function logout()
     {
-        session()->forget(['admin_logged_in', 'admin_username']);
+        session()->forget(['admin_logged_in', 'admin_username', 'admin_id', 'admin_name']);
         return redirect()->route('admin.login')->with('success', 'Anda telah logout.');
     }
 }

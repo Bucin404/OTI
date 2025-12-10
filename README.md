@@ -207,3 +207,40 @@ This project is proprietary software of PT. OME TEKNOLOGI INDONESIA.
 - **Phone:** 082 1234 60 799
 - **Address:** Perumahan Kierana Indah Residence 1, Blok I No 10, Kab.Bogor
 - **Website:** www.oticorp.co.id
+
+## Admin Access
+
+After running migrations and seeders, you can access the admin panel:
+
+- **URL**: `/admin/login`
+- **Username**: `admin` | **Password**: `admin123`
+- **Username**: `oti_admin` | **Password**: `OTI@2025`
+
+### Admin Features:
+- Dashboard with statistics
+- Products management (Create, Read, Update, Delete)
+- Image upload for products
+- Contact messages management
+- Modern responsive interface
+
+### Setup Commands:
+```bash
+# Run migrations
+php artisan migrate
+
+# Run seeders (includes admin users and sample products)
+php artisan db:seed
+
+# Or run specific seeders
+php artisan db:seed --class=AdminSeeder
+php artisan db:seed --class=ProductSeeder
+
+# Link storage for public access
+php artisan storage:link
+```
+
+### Database Structure:
+- **admins**: Admin user accounts with hashed passwords
+- **products**: Product/project portfolio
+- **contacts**: Contact form submissions
+

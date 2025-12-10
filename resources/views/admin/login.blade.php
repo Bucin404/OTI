@@ -31,7 +31,7 @@
                 @csrf
                 <div class="form-group">
                     <label for="username">Username</label>
-                    <input type="text" id="username" name="username" value="{{ old('username') }}" required>
+                    <input type="text" id="username" name="username" value="{{ old('username') }}" required autofocus>
                 </div>
 
                 <div class="form-group">
@@ -44,9 +44,18 @@
                 </button>
             </form>
 
-            <p style="text-align: center; margin-top: 20px; color: #6B7280; font-size: 13px;">
-                Default: username = admin, password = admin123
-            </p>
+            <div style="margin-top: 20px; padding: 15px; background: #F3F4F6; border-radius: 8px;">
+                <p style="text-align: center; color: #6B7280; font-size: 13px; margin-bottom: 8px;">
+                    <strong>Default Admin Accounts:</strong>
+                </p>
+                <p style="text-align: center; color: #374151; font-size: 12px; line-height: 1.6;">
+                    <strong>admin</strong> / admin123<br>
+                    <strong>oti_admin</strong> / OTI@2025
+                </p>
+                <p style="text-align: center; color: #9CA3AF; font-size: 11px; margin-top: 8px;">
+                    Run: <code>php artisan db:seed --class=AdminSeeder</code>
+                </p>
+            </div>
         </div>
     </div>
 </body>
