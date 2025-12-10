@@ -84,7 +84,7 @@
     <header class="modern-header">
         <nav class="modern-nav">
             <a href="/" class="modern-logo">
-                <img src="{{ asset('assets/img/oti-logo-dark.png') }}" alt="OTI Logo">
+                <img src="{{ asset('assets/img/oti-logo.png') }}" alt="OTI Logo">
                 <div class="modern-logo-text">
                     <span class="modern-logo-title">OME TEKNOLOGI INDONESIA</span>
                     <span class="modern-logo-subtitle">Inovasi Untuk Masa Depan</span>
@@ -112,7 +112,7 @@
             <div class="modern-footer-grid">
                 <div>
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
-                        <img src="{{ asset('assets/img/oti-logo-light.png') }}" alt="OTI Logo" style="height: 50px;">
+                        <img src="{{ asset('assets/img/oti-logo.png') }}" alt="OTI Logo" style="height: 50px;">
                         <div>
                             <h3 class="modern-footer-title" style="margin-bottom: 0.25rem;">PT. OME TEKNOLOGI INDONESIA</h3>
                             <p style="font-size: 0.85rem; opacity: 0.7; margin: 0;">Inovasi Teknologi Untuk Masa Depan</p>
@@ -147,6 +147,55 @@
             </div>
         </div>
     </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6282123460799?text=Halo%20OTI,%20saya%20ingin%20bertanya%20tentang%20produk%20dan%20layanan%20Anda" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       title="Chat via WhatsApp">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Kembali ke atas">
+        <i class='bx bx-chevron-up'></i>
+    </button>
+
+    <!-- Scroll to Top & WhatsApp Functionality -->
+    <script>
+        // Scroll to top button
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 
     @yield('extra-js')
 </body>

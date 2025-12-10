@@ -7,43 +7,205 @@
 @section('og_description', 'Solusi teknologi inovatif untuk transformasi digital Indonesia dengan produk unggulan seperti HT Android, K3 Monitoring, Smartpole IKN, AI Solutions, dan lebih banyak lagi.')
 
 @section('content')
-<!-- Hero Section with Animations -->
-<section class="modern-hero">
+<!-- Enhanced Hero Section with Animations & Scroll Button -->
+<section class="modern-hero enhanced-hero" id="home">
     <!-- Animated Background Particles -->
     <div class="hero-particle hexagon"></div>
     <div class="hero-particle circle"></div>
     <div class="hero-particle square"></div>
     <div class="hero-gradient-pulse"></div>
     
+    <!-- Animated Tech Icons Background -->
+    <div class="tech-icon-float" style="top: 15%; left: 10%;"><i class='bx bx-chip'></i></div>
+    <div class="tech-icon-float" style="top: 25%; right: 15%;"><i class='bx bx-brain'></i></div>
+    <div class="tech-icon-float" style="top: 60%; left: 15%;"><i class='bx bx-cloud'></i></div>
+    <div class="tech-icon-float" style="top: 50%; right: 10%;"><i class='bx bx-mobile-alt'></i></div>
+    <div class="tech-icon-float" style="top: 75%; left: 50%;"><i class='bx bx-code-alt'></i></div>
+    
     <div class="modern-container">
-        <div class="fade-in-up">
-            <h1>Inovasi Teknologi untuk Masa Depan Indonesia</h1>
-            <p>PT. OME TEKNOLOGI INDONESIA menyediakan solusi teknologi terpadu untuk mendukung transformasi digital dan smart city di Indonesia</p>
-            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                <a href="/products" class="modern-btn">Lihat Produk Kami</a>
-                <a href="/contact" class="modern-btn modern-btn-outline">Hubungi Kami</a>
+        <div class="hero-content-grid">
+            <div class="hero-text-content fade-in-up">
+                <span class="hero-badge">🚀 Produk Anak Bangsa</span>
+                <h1 class="hero-main-title">Inovasi Teknologi untuk Masa Depan <span class="gradient-text">Indonesia</span></h1>
+                <p class="hero-main-subtitle">PT. OME TEKNOLOGI INDONESIA menyediakan solusi teknologi terpadu yang mengintegrasikan AI, IoT, dan Cloud Computing untuk mendukung transformasi digital dan smart city di Indonesia</p>
+                
+                <div class="hero-stats-mini">
+                    <div class="stat-mini">
+                        <strong>5+</strong>
+                        <span>Tahun</span>
+                    </div>
+                    <div class="stat-mini">
+                        <strong>100+</strong>
+                        <span>Proyek</span>
+                    </div>
+                    <div class="stat-mini">
+                        <strong>50+</strong>
+                        <span>Klien</span>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="/products" class="modern-btn modern-btn-gradient">
+                        <i class='bx bx-package'></i> Lihat Produk Kami
+                    </a>
+                    <a href="/contact" class="modern-btn modern-btn-outline-white">
+                        <i class='bx bx-phone-call'></i> Hubungi Kami
+                    </a>
+                </div>
+                
+                <div class="hero-trust-badges">
+                    <span>Dipercaya oleh:</span>
+                    <div class="trust-logos-mini">
+                        <span class="trust-logo-item">PLN</span>
+                        <span class="trust-logo-item">IKN</span>
+                        <span class="trust-logo-item">Bank</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual-content fade-in-right">
+                <div class="hero-floating-card card-1">
+                    <i class='bx bx-shield-alt-2'></i>
+                    <div>
+                        <strong>Smart Security</strong>
+                        <p>AI-Powered System</p>
+                    </div>
+                </div>
+                <div class="hero-floating-card card-2">
+                    <i class='bx bx-network-chart'></i>
+                    <div>
+                        <strong>IoT Solutions</strong>
+                        <p>Connected Devices</p>
+                    </div>
+                </div>
+                <div class="hero-floating-card card-3">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <div>
+                        <strong>Real-time Analytics</strong>
+                        <p>Data-Driven Insights</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll Down Button -->
+    <a href="#about" class="scroll-down-btn">
+        <span>Scroll Down</span>
+        <i class='bx bx-chevron-down'></i>
+    </a>
+</section>
+
+<!-- About Preview with Modern Layout -->
+<section class="modern-section about-modern" id="about" style="background: var(--light);">
+    <div class="modern-container">
+        <div class="about-grid">
+            <div class="about-image-side">
+                <div class="about-image-wrapper">
+                    <img src="{{ asset('assets/img/oti-logo.png') }}" alt="OTI Logo" class="about-logo-large">
+                    <div class="about-stats-overlay">
+                        <div class="stat-box">
+                            <strong>5+</strong>
+                            <span>Years Experience</span>
+                        </div>
+                        <div class="stat-box">
+                            <strong>11</strong>
+                            <span>Products</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-text-side">
+                <span class="section-badge">Tentang Kami</span>
+                <h2 class="section-title-alt">Membangun Masa Depan Digital <span class="gradient-text">Indonesia</span></h2>
+                <p class="section-description">
+                    PT. OME TEKNOLOGI INDONESIA adalah perusahaan teknologi yang berfokus pada pengembangan, manufaktur, penelitian, dan dukungan produk dan layanan berbasis teknologi. Kami menyediakan solusi teknologi inovatif yang mencakup perangkat keras, perangkat lunak, dan layanan berbasis internet.
+                </p>
+                <p class="section-description">
+                    Dengan komitmen untuk memberikan solusi terbaik yang sesuai dengan kebutuhan di Indonesia, kami terus berinovasi mengembangkan produk dan layanan karya anak bangsa untuk mendukung transformasi digital dan smart city di Indonesia.
+                </p>
+                
+                <div class="about-features-list">
+                    <div class="about-feature-item">
+                        <i class='bx bx-check-circle'></i>
+                        <span>Teknologi AI & IoT Terkini</span>
+                    </div>
+                    <div class="about-feature-item">
+                        <i class='bx bx-check-circle'></i>
+                        <span>Tim Berpengalaman & Profesional</span>
+                    </div>
+                    <div class="about-feature-item">
+                        <i class='bx bx-check-circle'></i>
+                        <span>Support 24/7 untuk Klien</span>
+                    </div>
+                </div>
+                
+                <a href="/about" class="modern-btn modern-btn-gradient">
+                    Selengkapnya <i class='bx bx-right-arrow-alt'></i>
+                </a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- About Preview -->
-<section class="modern-section" style="background: var(--light);">
+<!-- Innovation Showcase Section -->
+<section class="modern-section innovation-section">
     <div class="modern-container">
         <div class="modern-section-header">
-            <h2 class="modern-section-title">Tentang Kami</h2>
-            <p class="modern-section-subtitle">
-                Perusahaan teknologi yang berfokus pada pengembangan, manufaktur, penelitian, dan dukungan produk dan layanan berbasis teknologi
-            </p>
+            <span class="section-badge">Inovasi Terkini</span>
+            <h2 class="section-title-alt">Teknologi & Inovasi Kami</h2>
+            <p class="modern-section-subtitle">Eksplorasi teknologi terkini yang kami implementasikan dalam produk dan layanan</p>
         </div>
         
-        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
-            <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 2rem;">
-                Kami menyediakan solusi teknologi inovatif yang mencakup perangkat keras, perangkat lunak, dan layanan berbasis internet. 
-                Dengan komitmen untuk memberikan solusi terbaik yang sesuai dengan kebutuhan di Indonesia, kami terus berinovasi 
-                mengembangkan produk dan layanan karya anak bangsa untuk mendukung transformasi digital dan smart city di Indonesia.
-            </p>
-            <a href="/about" class="modern-btn modern-btn-primary">Selengkapnya</a>
+        <div class="innovation-grid">
+            <div class="innovation-card">
+                <div class="innovation-icon gradient-bg-1">
+                    <i class='bx bx-brain'></i>
+                </div>
+                <h3>Artificial Intelligence</h3>
+                <p>Teknologi AI untuk deteksi objek, face recognition, dan analisis video real-time dengan akurasi tinggi</p>
+                <div class="innovation-stats">
+                    <span><i class='bx bx-trending-up'></i> 95% Akurasi</span>
+                    <span><i class='bx bx-time'></i> Real-time</span>
+                </div>
+            </div>
+            
+            <div class="innovation-card">
+                <div class="innovation-icon gradient-bg-2">
+                    <i class='bx bx-chip'></i>
+                </div>
+                <h3>Internet of Things</h3>
+                <p>Solusi IoT terintegrasi untuk monitoring, kontrol, dan otomasi sistem smart city dan industri</p>
+                <div class="innovation-stats">
+                    <span><i class='bx bx-network-chart'></i> Multi-Device</span>
+                    <span><i class='bx bx-cloud'></i> Cloud-Based</span>
+                </div>
+            </div>
+            
+            <div class="innovation-card">
+                <div class="innovation-icon gradient-bg-3">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <h3>Mobile Technology</h3>
+                <p>Aplikasi mobile untuk absensi, HT Android, dan berbagai solusi mobilitas untuk produktivitas maksimal</p>
+                <div class="innovation-stats">
+                    <span><i class='bx bx-map-pin'></i> GPS Tracking</span>
+                    <span><i class='bx bx-camera'></i> Photo Capture</span>
+                </div>
+            </div>
+            
+            <div class="innovation-card">
+                <div class="innovation-icon gradient-bg-4">
+                    <i class='bx bx-bar-chart-alt-2'></i>
+                </div>
+                <h3>Data Analytics</h3>
+                <p>Dashboard monitoring real-time dengan visualisasi data yang informatif untuk decision making</p>
+                <div class="innovation-stats">
+                    <span><i class='bx bx-stats'></i> Analytics</span>
+                    <span><i class='bx bx-pie-chart-alt-2'></i> Reporting</span>
+                </div>
+            </div>
         </div>
     </div>
 </section>
