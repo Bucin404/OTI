@@ -15,12 +15,15 @@
     @yield('extra-css')
 </head>
 <body>
-    <!-- Modern Header -->
+    <!-- Premium Modern Header -->
     <header class="modern-header">
         <nav class="modern-nav">
             <a href="/" class="modern-logo">
-                <i class='bx bx-chip'></i>
-                OTI
+                <img src="{{ asset('assets/img/oti-logo-dark.png') }}" alt="OTI Logo">
+                <div class="modern-logo-text">
+                    <span class="modern-logo-title">OME TEKNOLOGI INDONESIA</span>
+                    <span class="modern-logo-subtitle">Inovasi Untuk Masa Depan</span>
+                </div>
             </a>
             
             <ul class="modern-menu">
@@ -38,12 +41,18 @@
         @yield('content')
     </main>
 
-    <!-- Modern Footer -->
+    <!-- Premium Modern Footer -->
     <footer class="modern-footer">
         <div class="modern-container">
             <div class="modern-footer-grid">
                 <div>
-                    <h3 class="modern-footer-title">OME TEKNOLOGI INDONESIA</h3>
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <img src="{{ asset('assets/img/oti-logo-light.png') }}" alt="OTI Logo" style="height: 50px;">
+                        <div>
+                            <h3 class="modern-footer-title" style="margin-bottom: 0.25rem;">PT. OME TEKNOLOGI INDONESIA</h3>
+                            <p style="font-size: 0.85rem; opacity: 0.7; margin: 0;">Inovasi Teknologi Untuk Masa Depan</p>
+                        </div>
+                    </div>
                     <p class="modern-footer-text">
                         Perusahaan teknologi yang berfokus pada pengembangan, manufaktur, dan penelitian produk berbasis teknologi untuk mendukung transformasi digital Indonesia.
                     </p>
