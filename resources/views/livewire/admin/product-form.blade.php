@@ -1,5 +1,5 @@
 <div>
-    <form wire:submit="save">
+    <form wire:submit="save" style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
             <!-- Title -->
             <div class="form-group">
@@ -107,26 +107,3 @@
         </div>
     </form>
 </div>
-
-<style>
-    .form-group {
-        margin-bottom: 20px;
-    }
-    .form-label {
-        display: block;
-        margin-bottom: 8px;
-        font-weight: 600;
-        color: var(--dark);
-    }
-    .form-control {
-        width: 100%;
-        padding: 10px 15px;
-        border: 2px solid var(--border);
-        border-radius: 8px;
-        font-size: 14px;
-    }
-    .form-control:focus {
-        outline: none;
-        border-color: var(--primary);
-    }
-</style>

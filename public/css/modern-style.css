@@ -1310,7 +1310,7 @@ nav[role="navigation"] span[aria-disabled="true"] {
 }
 
 .hero-main-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1.5rem;
@@ -1326,9 +1326,9 @@ nav[role="navigation"] span[aria-disabled="true"] {
 }
 
 .hero-main-subtitle {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.7;
-    opacity: 0.95;
+    color: rgba(255, 255, 255, 0.85);
     margin-bottom: 2rem;
 }
 
@@ -1751,7 +1751,11 @@ nav[role="navigation"] span[aria-disabled="true"] {
     }
     
     .hero-main-title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+    }
+    
+    .hero-main-subtitle {
+        font-size: 0.85rem;
     }
     
     .hero-stats-mini {
@@ -1810,11 +1814,11 @@ nav[role="navigation"] span[aria-disabled="true"] {
 
 @media (max-width: 480px) {
     .hero-main-title {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     
     .hero-main-subtitle {
-        font-size: 0.95rem;
+        font-size: 0.8rem;
     }
     
     .hero-stats-mini {

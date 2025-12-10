@@ -23,6 +23,12 @@
             <a href="{{ route('admin.products.index') }}" class="{{ Request::is('admin/products*') ? 'active' : '' }}">
                 <i class='bx bx-package'></i> Products
             </a>
+            <a href="{{ route('admin.testimonials.index') }}" class="{{ Request::is('admin/testimonials*') ? 'active' : '' }}">
+                <i class='bx bx-star'></i> Testimonials
+            </a>
+            <a href="{{ route('admin.clients.index') }}" class="{{ Request::is('admin/clients*') ? 'active' : '' }}">
+                <i class='bx bx-building'></i> Clients
+            </a>
             <a href="{{ route('admin.contacts.index') }}" class="{{ Request::is('admin/contacts') ? 'active' : '' }}">
                 <i class='bx bx-envelope'></i> Contacts
             </a>
