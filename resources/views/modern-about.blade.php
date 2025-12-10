@@ -1,6 +1,8 @@
 @extends('modern-parent')
 
-@section('title', 'About - OTI Indonesia')
+@section('title', 'Tentang Kami - PT. OME TEKNOLOGI INDONESIA')
+@section('meta_description', 'Tentang PT. OME TEKNOLOGI INDONESIA - Perusahaan teknologi dengan pengalaman 5+ tahun, 50+ klien, dan 100+ proyek sukses. Fokus pada pengembangan, manufaktur, dan penelitian produk berbasis teknologi.')
+@section('meta_keywords', 'tentang OTI, profil perusahaan, OME teknologi indonesia, visi misi OTI, perusahaan teknologi indonesia')
 
 @section('content')
 <!-- About Hero -->

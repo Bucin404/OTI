@@ -3,7 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PT. OME TEKNOLOGI INDONESIA - Solusi Teknologi Inovatif untuk Indonesia">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="@yield('meta_description', 'PT. OME TEKNOLOGI INDONESIA - Perusahaan teknologi yang berfokus pada pengembangan, manufaktur, penelitian produk dan layanan berbasis teknologi untuk transformasi digital Indonesia. Software Development, IoT, Smart City, AI, Access Control.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'teknologi indonesia, software development, IoT indonesia, smart city, artificial intelligence, access control, mobile solutions, monitoring systems, IT solutions, ome teknologi, OTI')">
+    <meta name="author" content="PT. OME TEKNOLOGI INDONESIA">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="Indonesian">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="@yield('og_title', 'OTI - Inovasi Teknologi Indonesia')">
+    <meta property="og:description" content="@yield('og_description', 'Solusi teknologi inovatif untuk transformasi digital Indonesia')">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="@yield('og_image', asset('assets/img/oti-logo.png'))">
+    <meta property="og:site_name" content="PT. OME TEKNOLOGI INDONESIA">
+    <meta property="og:locale" content="id_ID">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('twitter_title', 'OTI - Inovasi Teknologi Indonesia')">
+    <meta name="twitter:description" content="@yield('twitter_description', 'Solusi teknologi inovatif untuk transformasi digital Indonesia')">
+    <meta name="twitter:image" content="@yield('twitter_image', asset('assets/img/oti-logo.png'))">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ url()->current() }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/oti-favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{ asset('assets/img/oti-logo.png') }}">
+    
     <title>@yield('title', 'OTI - Inovasi Teknologi Indonesia')</title>
     
     <!-- Modern CSS -->
@@ -11,6 +42,40 @@
     
     <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PT. OME TEKNOLOGI INDONESIA",
+        "alternateName": "OTI",
+        "url": "{{ url('/') }}",
+        "logo": "{{ asset('assets/img/oti-logo.png') }}",
+        "description": "Perusahaan teknologi yang berfokus pada pengembangan, manufaktur, penelitian produk dan layanan berbasis teknologi",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Perumahan Kierana Indah Residence 1, Blok I No 10",
+            "addressLocality": "Bogor",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "ID"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+62-821-2346-0799",
+            "contactType": "Customer Service",
+            "email": "ometeknologiindonesia@gmail.com"
+        },
+        "sameAs": [
+            "{{ url('/') }}"
+        ]
+    }
+    </script>
     
     @yield('extra-css')
 </head>

@@ -1,6 +1,8 @@
 @extends('modern-parent')
 
-@section('title', 'Contact - OTI Indonesia')
+@section('title', 'Hubungi Kami - PT. OME TEKNOLOGI INDONESIA')
+@section('meta_description', 'Hubungi PT. OME TEKNOLOGI INDONESIA di Perumahan Kierana Indah Residence 1, Blok I No 10, Kab. Bogor. Telepon: +62 821 2346 0799, Email: ometeknologiindonesia@gmail.com')
+@section('meta_keywords', 'kontak OTI, hubungi OTI, alamat OTI, telepon OTI, email OTI bogor')
 
 @section('content')
 <!-- Contact Hero -->

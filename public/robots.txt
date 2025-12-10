@@ -1,2 +1,15 @@
+# robots.txt for PT. OME TEKNOLOGI INDONESIA
 User-agent: *
-Disallow:
+Allow: /
+Allow: /products
+Allow: /services
+Allow: /about
+Allow: /contact
+Disallow: /admin
+Disallow: /admin/*
+
+# Sitemap location
+Sitemap: {{ url('/sitemap.xml') }}
+
+# Crawl-delay
+Crawl-delay: 1

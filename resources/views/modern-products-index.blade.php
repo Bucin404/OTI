@@ -1,6 +1,8 @@
 @extends('modern-parent')
 
-@section('title', 'Products - OTI Indonesia')
+@section('title', 'Produk & Proyek - PT. OME TEKNOLOGI INDONESIA')
+@section('meta_description', 'Jelajahi produk dan proyek inovatif dari OTI Indonesia: HT Android, Mobile Presence, K3 Monitoring, Smartpole IKN, AI Smoke/Fire Detection, Visitor Management, dan solusi teknologi lainnya.')
+@section('meta_keywords', 'produk OTI, proyek OTI, HT Android, mobile presence, K3 monitoring, smartpole, AI detection, visitor management, dashboard PLN')
 
 @section('content')
 <!-- Products Hero -->

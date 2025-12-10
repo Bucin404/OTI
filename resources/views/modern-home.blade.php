@@ -1,6 +1,10 @@
 @extends('modern-parent')
 
-@section('title', 'Home - OTI Indonesia')
+@section('title', 'Home - PT. OME TEKNOLOGI INDONESIA')
+@section('meta_description', 'PT. OME TEKNOLOGI INDONESIA - Perusahaan teknologi terkemuka yang menyediakan solusi Software Development, IoT, Smart City, AI, Access Control, dan Mobile Solutions untuk transformasi digital Indonesia.')
+@section('meta_keywords', 'OTI, OME Teknologi Indonesia, software development indonesia, IoT indonesia, smart city solutions, artificial intelligence, teknologi indonesia, IT solutions, digital transformation')
+@section('og_title', 'OTI - Inovasi Teknologi untuk Masa Depan Indonesia')
+@section('og_description', 'Solusi teknologi inovatif untuk transformasi digital Indonesia dengan produk unggulan seperti HT Android, K3 Monitoring, Smartpole IKN, AI Solutions, dan lebih banyak lagi.')
 
 @section('content')
 <!-- Hero Section -->

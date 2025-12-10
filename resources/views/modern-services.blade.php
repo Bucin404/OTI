@@ -1,6 +1,8 @@
 @extends('modern-parent')
 
-@section('title', 'Services - OTI Indonesia')
+@section('title', 'Layanan - PT. OME TEKNOLOGI INDONESIA')
+@section('meta_description', 'Layanan teknologi OTI meliputi Software Development, IoT & Smart City Solutions, Artificial Intelligence, Access Control Systems, Mobile Solutions, dan Monitoring Systems untuk kebutuhan bisnis Anda.')
+@section('meta_keywords', 'layanan OTI, software development, IoT indonesia, smart city, AI solutions, access control, mobile app development, monitoring systems')
 
 @section('content')
 <!-- Services Hero -->
