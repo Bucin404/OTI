@@ -1,27 +1,28 @@
 @extends("parent")
 
 @section('content')
+<!-- Hero Banner -->
 <div class="main-banner">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
                 <div class="banner-text">
-                    <span>Security System</span>
-                    <h1>Keamanan Modern untuk Dunia Digital</h1>
+                    <span>Solusi Teknologi Terpadu</span>
+                    <h1>Inovasi Teknologi untuk Masa Depan Indonesia</h1>
                     <p>
-                        PT. OME TEKNOLOGI INDONESIA adalah perusahan supplier dan kontraktor Produk Mekanikal dan Elektrikal.
+                        PT. OME TEKNOLOGI INDONESIA adalah perusahaan yang berfokus pada pengembangan, manufaktur, penelitian, dan dukungan produk dan layanan berbasis teknologi untuk mendukung transformasi digital Indonesia.
                     </p>
 
                     <div class="banner-btn">
-                        <a href="/contact" class="default-btn">Contact Us</a>
-                        <a href="#" class="default-btn active">Know More</a>
+                        <a href="/contact" class="default-btn">Hubungi Kami</a>
+                        <a href="/products" class="default-btn active">Lihat Produk</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="banner-img">
-                    <img src="assets/img/krms-bg5.png" alt="Banner Images">
+                    <img src="assets/img/krms-bg5.png" alt="OTI Technology Solutions">
                 </div>
             </div>
             <div class="banner-shape-1">
@@ -53,59 +54,30 @@
         </div>
     </div>
 </div>
-<div class="brand-area brand-bg ptb-100">
-    <div class="container">
-        <div class="brand-slider owl-carousel owl-theme">
-            <div class="brand-item">
-                <a href="#">
-                    <img src="assets/img/brand/1.png" alt="Brand Images">
-                </a>
-            </div>
-            <div class="brand-item">
-                <a href="#">
-                    <img src="assets/img/brand/2.png" alt="Brand Images">
-                </a>
-            </div>
-            <div class="brand-item">
-                <a href="#">
-                    <img src="assets/img/brand/3.png" alt="Brand Images">
-                </a>
-            </div>
-            <div class="brand-item">
-                <a href="#">
-                    <img src="assets/img/brand/4.png" alt="Brand Images">
-                </a>
-            </div>
-            <div class="brand-item">
-                <a href="#">
-                    <img src="assets/img/brand/5.png" alt="Brand Images">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+
+<!-- About Section -->
 <div class="about-area pt-100 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-5 col-xxl-6 ps-0">
                 <div class="about-img">
-                    <img src="assets/img/about/1.png" alt="About Images">
+                    <img src="assets/img/about/1.png" alt="About OTI">
                 </div>
             </div>
 
             <div class="col-lg-7 col-xxl-6">
                 <div class="about-content about-width">
-                    <span>About Us</span>
-                    <h2>Kami Membantu Orang Menjangkau Pelanggan Mereka</h2>
+                    <span>Tentang Kami</span>
+                    <h2>Perusahaan Teknologi Terpercaya di Indonesia</h2>
                     <p>
-                        Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya. Inti dari penggunaan Lorem Ipsum adalah karena ia memiliki distribusi huruf yang kurang lebih normal.
+                        PT. OME TEKNOLOGI INDONESIA adalah perusahaan yang berfokus pada pengembangan, manufaktur, penelitian, dan dukungan produk dan layanan berbasis teknologi. Kami menyediakan solusi teknologi inovatif yang mencakup perangkat keras, perangkat lunak, dan layanan berbasis internet.
                     </p>
                     <p>
-                        Berbeda dengan menggunakan 'Konten di sini, konten di sini', membuatnya tampak seperti bahasa Inggris yang dapat dibaca. Banyak paket penerbitan desktop dan editor halaman web sekarang menggunakan Lorem Ipsum sebagai teks model default mereka, dan pencarian untuk 'lorem ipsum' akan mengungkap banyak situs web yang masih dalam tahap awal. Berbagai versi telah berkembang selama bertahun-tahun.
+                        Dengan komitmen untuk memberikan solusi terbaik yang sesuai dengan kebutuhan di Indonesia, kami terus berinovasi mengembangkan produk dan layanan karya anak bangsa untuk mendukung transformasi digital dan smart city di Indonesia.
                     </p>
 
                     <div class="about-btn">
-                        <a href="#" class="default-btn">Know More</a>
+                        <a href="/about" class="default-btn">Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -115,174 +87,233 @@
         <img src="assets/img/shape/right-side.png" alt="Shape Images">
     </div>
 </div>
+
+<!-- Services Section -->
 <section class="service-area pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span>Our Service</span>
-            <h2>Kami Menyediakan Layanan Pertumbuhan Bisnis Tercepat & Unik</h2>
+            <span>Layanan Kami</span>
+            <h2>Solusi Teknologi Komprehensif untuk Kebutuhan Bisnis Anda</h2>
             <p>
-                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya.
+                Kami menyediakan berbagai layanan teknologi inovatif untuk mendukung transformasi digital perusahaan Anda.
             </p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="service-details.html">
-                        <img src="assets/img/service-icon/1.png" alt="Images">
+                    <a href="/services">
+                        <img src="assets/img/service-icon/1.png" alt="Software Development">
                     </a>
-                    <a href="service-details.html">
-                        <h3>SEO Optimization</h3>
+                    <a href="/services">
+                        <h3>Software Development</h3>
                     </a>
                     <p>
-                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
+                        Pengembangan perangkat lunak custom seperti aplikasi web, mobile, dan sistem operasi sesuai kebutuhan bisnis Anda.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="service-details.html">
-                        <img src="assets/img/service-icon/2.png" alt="Images">
+                    <a href="/services">
+                        <img src="assets/img/service-icon/2.png" alt="IoT Solutions">
                     </a>
-                    <a href="service-details.html">
-                        <h3>Social Marketing</h3>
+                    <a href="/services">
+                        <h3>IoT & Smart City</h3>
                     </a>
                     <p>
-                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
+                        Solusi Internet of Things untuk smart city, monitoring sistem, dan otomasi berbasis sensor dan teknologi terkini.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="service-details.html">
-                        <img src="assets/img/service-icon/3.png" alt="Images">
+                    <a href="/services">
+                        <img src="assets/img/service-icon/3.png" alt="AI Solutions">
                     </a>
-                    <a href="service-details.html">
-                        <h3>Content Marketing</h3>
+                    <a href="/services">
+                        <h3>Artificial Intelligence</h3>
                     </a>
                     <p>
-                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
+                        Implementasi AI untuk deteksi objek, face recognition, dan analisis video untuk meningkatkan keamanan dan efisiensi.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="service-details.html">
-                        <img src="assets/img/service-icon/4.png" alt="Images">
+                    <a href="/services">
+                        <img src="assets/img/service-icon/4.png" alt="Access Control">
                     </a>
-                    <a href="service-details.html">
-                        <h3>Analytical Analysis</h3>
+                    <a href="/services">
+                        <h3>Access Control System</h3>
                     </a>
                     <p>
-                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
+                        Sistem kontrol akses terpadu dengan turnstile gate, face recognition, dan parking management untuk keamanan maksimal.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="service-details.html">
-                        <img src="assets/img/service-icon/5.png" alt="Images">
+                    <a href="/services">
+                        <img src="assets/img/service-icon/5.png" alt="Mobile Solutions">
                     </a>
-                    <a href="service-details.html">
-                        <h3>App Development</h3>
+                    <a href="/services">
+                        <h3>Mobile Solutions</h3>
                     </a>
                     <p>
-                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
+                        Pengembangan aplikasi mobile untuk absensi, HT Android, dan berbagai solusi mobilitas untuk meningkatkan produktivitas.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="service-details.html">
-                        <img src="assets/img/service-icon/6.png" alt="Images">
+                    <a href="/services">
+                        <img src="assets/img/service-icon/6.png" alt="Monitoring Systems">
                     </a>
-                    <a href="service-details.html">
-                        <h3>Web Development</h3>
+                    <a href="/services">
+                        <h3>Monitoring Systems</h3>
                     </a>
                     <p>
-                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
+                        Dashboard monitoring real-time untuk berbagai sistem seperti smartpole, limbah, CCTV, dan infrastruktur lainnya.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Products Showcase Section -->
+<section class="portfolio-area pt-100 pb-70" style="background-color: #f9f9f9;">
+    <div class="container">
+        <div class="section-title text-center">
+            <span>Produk & Proyek Kami</span>
+            <h2>Solusi Teknologi yang Telah Kami Kembangkan</h2>
+            <p>
+                Portofolio produk dan proyek teknologi inovatif yang telah kami implementasikan untuk berbagai klien dan keperluan.
+            </p>
+        </div>
+        
+        @php
+            $featuredProducts = \App\Models\Product::orderBy('created_at', 'desc')->take(6)->get();
+        @endphp
+        
+        <div class="row pt-45">
+            @forelse($featuredProducts as $product)
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="{{ route('products.show', $product->slug) }}">
+                            @if($product->image_path)
+                                <img src="{{ asset('storage/' . $product->image_path) }}" alt="{{ $product->title }}" style="width: 100%; height: 280px; object-fit: cover;">
+                            @else
+                                <img src="assets/img/portfolio/1.jpg" alt="{{ $product->title }}">
+                            @endif
+                        </a>
+                        <div class="portfolio-tag">
+                            <a href="{{ route('products.show', $product->slug) }}">
+                                <span>{{ ucfirst(str_replace('_', ' ', $product->status)) }}</span>
+                            </a>
+                        </div>
+                        <div class="portfolio-content">
+                            <a href="{{ route('products.show', $product->slug) }}">
+                                <h3>{{ $product->title }}</h3>
+                            </a>
+                            <i class='bx bxs-chevron-right'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @empty
+            <div class="col-12 text-center">
+                <p>Produk akan segera ditampilkan.</p>
+            </div>
+            @endforelse
+        </div>
+        
+        <div class="row">
+            <div class="col-12 text-center mt-4">
+                <a href="{{ route('products.index') }}" class="default-btn">
+                    Lihat Semua Produk
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us Section -->
 <div class="faq-area pt-100 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6 col-xxl-7">
                 <div class="faq-img">
-                    <img src="assets/img/faq/1.png" alt="fAQ Images">
+                    <img src="assets/img/faq/1.png" alt="Why Choose OTI">
                 </div>
             </div>
 
             <div class="col-lg-6 col-xxl-5">
                 <div class="faq-content">
-                    <span>Why Choose Us</span>
-                    <h2>Kami adalah Perusahaan SEO Berperingkat Teratas & Berdedikasi</h2>
+                    <span>Mengapa Memilih Kami</span>
+                    <h2>Partner Teknologi Terpercaya untuk Transformasi Digital Anda</h2>
                     <p>
-                        Berbeda dengan penggunaan Konten di sini, konten di sini, membuatnya tampak seperti bahasa Inggris yang dapat dibaca. Banyak paket penerbitan desktop dan editor halaman web sekarang menggunakan Lorem Ipsum sebagai teks model default mereka.
+                        PT. OME TEKNOLOGI INDONESIA adalah pilihan tepat untuk solusi teknologi Anda. Kami memiliki pengalaman luas dalam mengembangkan dan mengimplementasikan berbagai sistem teknologi yang telah terbukti meningkatkan efisiensi dan keamanan.
                     </p>
                 </div>
 
                 <div class="faq-accordion">
                     <ul class="accordion">
                         <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class='bx bx-chevron-down'></i>
-                                Eksplorasi Penelitian Hebat
-                            </a>
-
-                            <div class="accordion-content">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class='bx bx-chevron-down'></i>
-                                Pemahaman yang Luar Biasa
-                            </a>
-
-                            <div class="accordion-content">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class='bx bx-chevron-down'></i>
-                                Peringkat Teratas
-                            </a>
-
-                            <div class="accordion-content">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="accordion-item">
                             <a class="accordion-title active" href="javascript:void(0)">
                                 <i class='bx bx-chevron-down'></i>
-                                100% Terpercaya
+                                Produk Karya Anak Bangsa
                             </a>
 
                             <div class="accordion-content show">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Kami mengembangkan produk dan solusi teknologi yang dirancang khusus untuk kebutuhan Indonesia, dengan dukungan aplikasi dan sistem karya anak bangsa yang mudah digunakan dan dapat diandalkan.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="accordion-item">
+                            <a class="accordion-title" href="javascript:void(0)">
+                                <i class='bx bx-chevron-down'></i>
+                                Teknologi Terkini
+                            </a>
+
+                            <div class="accordion-content">
+                                <p>
+                                    Menggunakan teknologi terbaru seperti AI, IoT, dan cloud computing untuk memberikan solusi yang modern, efisien, dan dapat berkembang sesuai kebutuhan bisnis Anda.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="accordion-item">
+                            <a class="accordion-title" href="javascript:void(0)">
+                                <i class='bx bx-chevron-down'></i>
+                                Pengalaman Terpercaya
+                            </a>
+
+                            <div class="accordion-content">
+                                <p>
+                                    Telah dipercaya oleh berbagai klien termasuk PLN Indonesia Power dan Ibu Kota Nusantara untuk proyek-proyek strategis dan infrastruktur teknologi skala besar.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="accordion-item">
+                            <a class="accordion-title" href="javascript:void(0)">
+                                <i class='bx bx-chevron-down'></i>
+                                Support & Maintenance
+                            </a>
+
+                            <div class="accordion-content">
+                                <p>
+                                    Dukungan teknis yang responsif dan maintenance berkala untuk memastikan sistem Anda selalu berjalan optimal dan up-to-date dengan perkembangan teknologi terkini.
                                 </p>
                             </div>
                         </li>
@@ -292,421 +323,68 @@
         </div>
     </div>
 </div>
-<section class="portfolio-area pt-100 pb-70">
+
+<!-- Statistics Counter -->
+<div class="counter-area pb-70">
     <div class="container">
-        <div class="section-title text-center">
-            <span>Our Portfolio</span>
-            <h2>Kami Telah Berbisnis dengan Ribuan Perusahaan</h2>
-            <p>
-                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya.
-            </p>
-        </div>
-        <div class="portfolio-slider pt-45 owl-carousel owl-theme">
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <a href="portfolio.html">
-                        <img src="assets/img/portfolio/1.jpg" alt="Portfolio Images">
-                    </a>
-                    <div class="portfolio-tag">
-                        <a href="#"><span>Marketing</span></a>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="portfolio.html"><h3>Social Marketing</h3></a>
-                        <i class='bx bxs-chevron-right'></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <a href="portfolio.html">
-                        <img src="assets/img/portfolio/2.jpg" alt="Portfolio Images">
-                    </a>
-                    <div class="portfolio-tag">
-                        <a href="#"><span>Research</span></a>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="portfolio.html"><h3>Data Analysis</h3></a>
-                        <i class='bx bxs-chevron-right'></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <a href="portfolio.html">
-                        <img src="assets/img/portfolio/3.jpg" alt="Portfolio Images">
-                    </a>
-                    <div class="portfolio-tag">
-                        <a href="#"><span>Optimizing</span></a>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="portfolio.html"><h3>SEO Optimization</h3></a>
-                        <i class='bx bxs-chevron-right'></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <a href="portfolio.html">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio Images">
-                    </a>
-                    <div class="portfolio-tag">
-                        <a href="#"><span>Development</span></a>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="portfolio.html"><h3>App Development</h3></a>
-                        <i class='bx bxs-chevron-right'></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{{--<div class="price-area pt-100 pb-70">--}}
-{{--    <div class="container">--}}
-{{--        <div class="section-title text-center">--}}
-{{--            <span>Pricing Table</span>--}}
-{{--            <h2>Kami Memiliki Harga Siap Pakai untuk Layanan Kami</h2>--}}
-{{--            <p>--}}
-{{--                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang dapat dibaca saat melihat tata letaknya.--}}
-{{--            </p>--}}
-{{--        </div>--}}
-{{--        <div class="row">--}}
-{{--            <div class="col-lg-12 pt-45">--}}
-{{--                <div class="tabs-item-list">--}}
-{{--                    <ul id="tabs-item" class="text-center">--}}
-{{--                        <li class="active">--}}
-{{--                            <a href="#monthly" class="prices-tab">Bulanan</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#yearly" class="prices-tab">Tahunan</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-
-{{--        <div id="prices-content">--}}
-{{--            <div id="monthly" class="active prices-content-area animated">--}}
-{{--                <div class="row">--}}
-{{--                    <div class="col-lg-4 col-sm-6">--}}
-{{--                        <div class="single-price">--}}
-{{--                            <span>Paket Dasar</span>--}}
-{{--                            <div class="single-price-title">--}}
-{{--                                <h2><sup>$</sup>30<sub>/bulan</sub></h2>--}}
-{{--                            </div>--}}
-{{--                            <ul>--}}
-{{--                                <li>Data Analysis</li>--}}
-{{--                                <li>Website Building</li>--}}
-{{--                                <li>Web Application</li>--}}
-{{--                                <li class="color-gray">SEO Optimizing</li>--}}
-{{--                                <li class="color-gray">Content Marketing</li>--}}
-{{--                                <li class="color-gray">Social Marketing</li>--}}
-{{--                            </ul>--}}
-{{--                            <a href="#" class="get-btn">Memulai</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="col-lg-4 col-sm-6">--}}
-{{--                        <div class="single-price current">--}}
-{{--                            <span>Paket Standar</span>--}}
-{{--                            <div class="single-price-title">--}}
-{{--                                <h2><sup>$</sup>60<sub>/month</sub></h2>--}}
-{{--                            </div>--}}
-{{--                            <ul>--}}
-{{--                                <li>Data Analysis</li>--}}
-{{--                                <li>Website Building</li>--}}
-{{--                                <li>Web Application</li>--}}
-{{--                                <li>SEO Optimizing</li>--}}
-{{--                                <li class="color-gray">Content Marketing</li>--}}
-{{--                                <li class="color-gray">Social Marketing</li>--}}
-{{--                            </ul>--}}
-{{--                            <a href="#" class="get-btn">Get Stated</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">--}}
-{{--                        <div class="single-price">--}}
-{{--                            <span>Premium Plan</span>--}}
-{{--                            <div class="single-price-title">--}}
-{{--                                <h2><sup>$</sup>90<sub>/month</sub></h2>--}}
-{{--                            </div>--}}
-{{--                            <ul>--}}
-{{--                                <li>Data Analysis</li>--}}
-{{--                                <li>Website Building</li>--}}
-{{--                                <li>Web Application</li>--}}
-{{--                                <li>SEO Optimizing</li>--}}
-{{--                                <li>Content Marketing</li>--}}
-{{--                                <li>Social Marketing</li>--}}
-{{--                            </ul>--}}
-{{--                            <a href="#" class="get-btn">Get Stated</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <div id="yearly" class="animated prices-content-area">--}}
-{{--                <div class="row">--}}
-{{--                    <div class="col-lg-4 col-sm-6">--}}
-{{--                        <div class="single-price">--}}
-{{--                            <span>Basic Plan</span>--}}
-{{--                            <div class="single-price-title">--}}
-{{--                                <h2><sup>$</sup>70<sub>/Year</sub></h2>--}}
-{{--                            </div>--}}
-{{--                            <ul>--}}
-{{--                                <li>Data Analysis</li>--}}
-{{--                                <li>Website Building</li>--}}
-{{--                                <li>Web Application</li>--}}
-{{--                                <li class="color-gray">SEO Optimizing</li>--}}
-{{--                                <li class="color-gray">Content Marketing</li>--}}
-{{--                                <li class="color-gray">Social Marketing</li>--}}
-{{--                            </ul>--}}
-{{--                            <a href="#" class="get-btn">Get Stated</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="col-lg-4 col-sm-6">--}}
-{{--                        <div class="single-price current">--}}
-{{--                            <span>Standard Plan</span>--}}
-{{--                            <div class="single-price-title">--}}
-{{--                                <h2><sup>$</sup>120<sub>/Year</sub></h2>--}}
-{{--                            </div>--}}
-{{--                            <ul>--}}
-{{--                                <li>Data Analysis</li>--}}
-{{--                                <li>Website Building</li>--}}
-{{--                                <li>Web Application</li>--}}
-{{--                                <li>SEO Optimizing</li>--}}
-{{--                                <li class="color-gray">Content Marketing</li>--}}
-{{--                                <li class="color-gray">Social Marketing</li>--}}
-{{--                            </ul>--}}
-{{--                            <a href="#" class="get-btn">Get Stated</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-
-{{--                    <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">--}}
-{{--                        <div class="single-price">--}}
-{{--                            <span>Premium Plan</span>--}}
-{{--                            <div class="single-price-title">--}}
-{{--                                <h2><sup>$</sup>170<sub>/Year</sub></h2>--}}
-{{--                            </div>--}}
-{{--                            <ul>--}}
-{{--                                <li>Data Analysis</li>--}}
-{{--                                <li>Website Building</li>--}}
-{{--                                <li>Web Application</li>--}}
-{{--                                <li>SEO Optimizing</li>--}}
-{{--                                <li>Content Marketing</li>--}}
-{{--                                <li>Social Marketing</li>--}}
-{{--                            </ul>--}}
-{{--                            <a href="#" class="get-btn">Get Stated</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
-<div class="member-area pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span>Anggota Ahli kami</span>
-            <h2>Dibalik Kesuksesan Besar OTI Mereka Memainkan Peran</h2>
-            <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-            </p>
-        </div>
-        <div class="row pt-45">
-            <div class="col-lg-3 col-sm-6">
-                <div class="member-card">
-                    <div class="member-img">
-                        <a href="members.html">
-                            <img src="assets/img/member/1.jpg" alt="Member Images">
-                        </a>
-                        <div class="member-content">
-                            <a href="members.html">
-                                <h3>SUSLIANTO</h3>
-                            </a>
-                            <span>Head of IT</span>
-                            <div class="social-icon">
-                                <ul>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-facebook'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-twitter' ></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-instagram' ></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+        <div class="counter-bg pt-100 pb-70">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="single-counter">
+                        <div class="count-icon">
+                            <img src="assets/img/icon/1.png" alt="Images">
                         </div>
+                        <h3 class="counter">5</h3>
+                        <span>+</span>
+                        <p>Tahun Pengalaman</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="member-card">
-                    <div class="member-img">
-                        <a href="members.html">
-                            <img src="assets/img/member/2.jpg" alt="Member Images">
-                        </a>
-                        <div class="member-content">
-                            <a href="members.html">
-                                <h3>Ilham Saputra</h3>
-                            </a>
-                            <span>Direktur Teknis</span>
-                            <div class="social-icon">
-                                <ul>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-facebook'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-twitter' ></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-instagram' ></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="single-counter">
+                        <div class="count-icon">
+                            <img src="assets/img/icon/2.png" alt="Images">
                         </div>
+                        <h3 class="counter">50</h3>
+                        <span>+</span>
+                        <p>Klien</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="member-card">
-                    <div class="member-img">
-                        <a href="members.html">
-                            <img src="assets/img/member/3.jpg" alt="Member Images">
-                        </a>
-                        <div class="member-content">
-                            <a href="members.html">
-                                <h3>Essa A'la Izzal Afif</h3>
-                            </a>
-                            <span>Drafter</span>
-                            <div class="social-icon">
-                                <ul>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-facebook'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-twitter' ></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-instagram' ></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="single-counter">
+                        <div class="count-icon">
+                            <img src="assets/img/icon/3.png" alt="Images">
                         </div>
+                        <h3 class="counter">100</h3>
+                        <span>+</span>
+                        <p>Proyek Sukses</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="member-card">
-                    <div class="member-img">
-                        <a href="members.html">
-                            <img src="assets/img/member/4.jpg" alt="Member Images">
-                        </a>
-                        <div class="member-content">
-                            <a href="members.html">
-                                <h3>Teguh Alfajar</h3>
-                            </a>
-                            <span>IT</span>
-                            <div class="social-icon">
-                                <ul>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-facebook'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-twitter' ></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" >
-                                            <i class='bx bxl-instagram' ></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="single-counter">
+                        <div class="count-icon">
+                            <img src="assets/img/icon/4.png" alt="Images">
                         </div>
+                        <h3 class="counter">11</h3>
+                        <span>+</span>
+                        <p>Produk Inovatif</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="member-shape">
-        <img src="assets/img/shape/member-shape-1.png" alt="Shape">
-    </div>
-</div>
-<div class="counter-area pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-sm-6 col-md-3">
-                <div class="single-counter">
-                    <i class='flaticon-success'></i>
-                    <h3><span class="counter">1</span></h3>
-                    <p>Pengalaman Bertahun-tahun</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-md-3">
-                <div class="single-counter">
-                    <i class='flaticon-launch'></i>
-                    <h3><span class="counter">3</span>+</h3>
-                    <p>Proyek Selesai</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-md-3">
-                <div class="single-counter">
-                    <i class='flaticon-customer'></i>
-                    <h3><span class="counter">3</span>+</h3>
-                    <p>Klien yang Bahagia</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-md-3">
-                <div class="single-counter">
-                    <i class='flaticon-team-building'></i>
-                    <h3><span class="counter">25</span>+</h3>
-                    <p>Anggota Ahli</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Testimonial Section -->
 <div class="testimonial-area pt-100 pb-70">
     <div class="container-fluid">
         <div class="section-title text-center">
-            <span>Testimonial</span>
-            <h2>Umpan Balik Klien Kami</h2>
+            <span>Testimoni</span>
+            <h2>Kepercayaan Klien Kami</h2>
             <p>
-                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya.
+                Apa kata klien kami tentang solusi teknologi yang telah kami berikan untuk mendukung kebutuhan bisnis mereka.
             </p>
         </div>
         <div class="row align-items-center">
@@ -719,34 +397,31 @@
                     <div class="testimonial-item-slider owl-carousel owl-theme">
                         <div class="testimonial-item">
                             <div class="testimonial-item-img">
-                                <img src="assets/img/testimonial/t1.png" alt="Testimonial Images">
+                                <img src="assets/img/testimonial/t1.png" alt="Client Testimonial">
                             </div>
-                            <h3>John Doe</h3>
+                            <h3>PLN Indonesia Power</h3>
                             <p>
-                                Restaurants range from inexpensive and informal lunching or dining places
-                                catering to people working nearby, with modest food served in simple settings at low prices.
+                                Dashboard monitoring yang dikembangkan OTI sangat membantu kami dalam memantau operasional secara real-time. Sistem yang user-friendly dan responsif membuat pekerjaan tim kami lebih efisien.
                             </p>
                         </div>
 
                         <div class="testimonial-item">
                             <div class="testimonial-item-img">
-                                <img src="assets/img/testimonial/t2.png" alt="Testimonial Images">
+                                <img src="assets/img/testimonial/t2.png" alt="Client Testimonial">
                             </div>
-                            <h3>Knot Doe</h3>
+                            <h3>Proyek IKN</h3>
                             <p>
-                                Restaurants range from inexpensive and informal lunching or dining places
-                                catering to people working nearby, with modest food served in simple settings at low prices.
+                                Implementasi Smartpole untuk Ibu Kota Nusantara berjalan sangat lancar. Tim OTI profesional dan teknologi yang digunakan sangat canggih. Kami puas dengan hasilnya.
                             </p>
                         </div>
 
                         <div class="testimonial-item">
                             <div class="testimonial-item-img">
-                                <img src="assets/img/testimonial/t3.png" alt="Testimonial Images">
+                                <img src="assets/img/testimonial/t3.png" alt="Client Testimonial">
                             </div>
-                            <h3>Evanaa</h3>
+                            <h3>Perusahaan Manufaktur</h3>
                             <p>
-                                Restaurants range from inexpensive and informal lunching or dining places
-                                catering to people working nearby, with modest food served in simple settings at low prices.
+                                Sistem K3 Monitoring dan AI Wearpack Detection dari OTI membantu kami meningkatkan keselamatan kerja secara signifikan. Deteksi otomatis sangat akurat dan real-time.
                             </p>
                         </div>
                     </div>
@@ -755,7 +430,7 @@
 
             <div class="col-lg-5 col-xxl-6">
                 <div class="testimonial-img">
-                    <img src="assets/img/testimonial/1.png" alt="Testimonial Images">
+                    <img src="assets/img/testimonial/1.png" alt="Testimonial">
                 </div>
             </div>
         </div>
@@ -768,74 +443,27 @@
         <img src="assets/img/testimonial/shape-right.png" alt="Images">
     </div>
 </div>
-{{--<div class="blog-area pb-70">--}}
-{{--    <div class="container">--}}
-{{--        <div class="section-title text-center">--}}
-{{--            <span>Blogs</span>--}}
-{{--            <h2>Our Latest Post</h2>--}}
-{{--            <p>--}}
-{{--                It is a long established fact that a reader will be--}}
-{{--                distracted by the readable content of a page when looking at its layout.--}}
-{{--            </p>--}}
-{{--        </div>--}}
-{{--        <div class="row pt-45">--}}
-{{--            <div class="col-lg-4 col-md-6">--}}
-{{--                <div class="blog-card">--}}
-{{--                    <div class="blog-img">--}}
-{{--                        <a href="blog-details.html">--}}
-{{--                            <img src="assets/img/blog/1.jpg" alt="Blog Images">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                    <div class="blog-content">--}}
-{{--                        <div class="blog-tag">--}}
-{{--                            <a href="#"><span>SEO Optimization</span></a>--}}
-{{--                        </div>--}}
-{{--                        <a href="blog-details.html">--}}
-{{--                            <h3>Basic Guidline Layout for SEO  Bigenner Level</h3>--}}
-{{--                        </a>--}}
-{{--                        <a href="blog-details.html" class="read-btn">Read More</a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
 
-{{--            <div class="col-lg-4 col-md-6">--}}
-{{--                <div class="blog-card">--}}
-{{--                    <div class="blog-img">--}}
-{{--                        <a href="blog-details.html">--}}
-{{--                            <img src="assets/img/blog/2.jpg" alt="Blog Images">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                    <div class="blog-content">--}}
-{{--                        <div class="blog-tag">--}}
-{{--                            <a href="#"><span>Marketing</span></a>--}}
-{{--                        </div>--}}
-{{--                        <a href="blog-details.html">--}}
-{{--                            <h3>How to Become Most Skilled Person in Social Marketing</h3>--}}
-{{--                        </a>--}}
-{{--                        <a href="blog-details.html" class="read-btn">Read More</a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+<!-- Call to Action -->
+<div class="brand-area brand-bg ptb-100">
+    <div class="container">
+        <div class="section-title text-center mb-5">
+            <h2 style="color: white;">Siap Untuk Transformasi Digital?</h2>
+            <p style="color: rgba(255,255,255,0.8);">
+                Hubungi kami sekarang untuk konsultasi gratis dan temukan solusi teknologi terbaik untuk bisnis Anda.
+            </p>
+            <div class="mt-4">
+                <a href="/contact" class="default-btn" style="margin-right: 15px;">
+                    Hubungi Kami
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+                <a href="/products" class="default-btn active">
+                    Lihat Produk
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
-{{--            <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">--}}
-{{--                <div class="blog-card">--}}
-{{--                    <div class="blog-img">--}}
-{{--                        <a href="blog-details.html">--}}
-{{--                            <img src="assets/img/blog/3.jpg" alt="Blog Images">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                    <div class="blog-content">--}}
-{{--                        <div class="blog-tag">--}}
-{{--                            <a href="#"><span>Data Research</span></a>--}}
-{{--                        </div>--}}
-{{--                        <a href="blog-details.html">--}}
-{{--                            <h3>Basic Guidline Layout for SEO Bigenner Level</h3>--}}
-{{--                        </a>--}}
-{{--                        <a href="blog-details.html" class="read-btn">Read More</a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
 @endsection
