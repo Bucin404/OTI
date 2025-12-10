@@ -13,10 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Seed admin users and products
+        // Seed admin users, products, testimonials, and clients
         $this->call([
             AdminSeeder::class,
             ProductSeeder::class,
+            TestimonialClientSeeder::class,
         ]);
     }
 }

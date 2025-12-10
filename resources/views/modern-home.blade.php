@@ -349,144 +349,48 @@
             <p class="modern-section-subtitle">Testimoni dari klien yang telah mempercayai solusi teknologi kami</p>
         </div>
         
+        @php
+            $testimonials = \App\Models\Testimonial::active()->ordered()->take(6)->get();
+        @endphp
+        
         <div class="modern-grid modern-grid-3">
-            <!-- Testimonial 1 -->
+            @forelse($testimonials as $testimonial)
+            <div class="testimonial-card">
+            @forelse($testimonials as $testimonial)
             <div class="testimonial-card">
                 <div class="testimonial-rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
+                    @for($i = 1; $i <= 5; $i++)
+                        @if($i <= $testimonial->full_stars)
+                            <i class='bx bxs-star'></i>
+                        @elseif($i == ceil($testimonial->rating) && $testimonial->has_half_star)
+                            <i class='bx bxs-star-half'></i>
+                        @else
+                            <i class='bx bx-star'></i>
+                        @endif
+                    @endfor
                 </div>
                 <p class="testimonial-text">
-                    "Sistem K3 Monitoring dari OTI sangat membantu kami dalam meningkatkan keselamatan kerja di lapangan. Interface yang user-friendly dan fitur real-time monitoring sangat memudahkan tim kami."
+                    "{{ $testimonial->testimonial_text }}"
                 </p>
                 <div class="testimonial-author">
                     <div class="testimonial-avatar">
-                        <i class='bx bx-user'></i>
+                        @if($testimonial->client_avatar)
+                            <img src="{{ asset('storage/' . $testimonial->client_avatar) }}" alt="{{ $testimonial->client_name }}" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                        @else
+                            <i class='bx bx-user'></i>
+                        @endif
                     </div>
                     <div>
-                        <h4>Ahmad Rizki</h4>
-                        <p>HSE Manager, PT Industri Manufaktur</p>
+                        <h4>{{ $testimonial->client_name }}</h4>
+                        <p>{{ $testimonial->client_position }}, {{ $testimonial->client_company }}</p>
                     </div>
                 </div>
             </div>
-            
-            <!-- Testimonial 2 -->
-            <div class="testimonial-card">
-                <div class="testimonial-rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <p class="testimonial-text">
-                    "Dashboard monitoring PLN yang dikembangkan OTI memberikan insight yang valuable untuk operasional kami. Support tim yang responsif juga menjadi nilai plus."
-                </p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar">
-                        <i class='bx bx-user'></i>
-                    </div>
-                    <div>
-                        <h4>Budi Santoso</h4>
-                        <p>IT Manager, PLN Indonesia Power</p>
-                    </div>
-                </div>
+            @empty
+            <div style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
+                <p>Testimonial akan segera ditampilkan</p>
             </div>
-            
-            <!-- Testimonial 3 -->
-            <div class="testimonial-card">
-                <div class="testimonial-rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-                <p class="testimonial-text">
-                    "Implementasi Smartpole IKN berjalan lancar berkat expertise tim OTI. Produk berkualitas dengan teknologi terkini, sesuai dengan visi smart city kami."
-                </p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar">
-                        <i class='bx bx-user'></i>
-                    </div>
-                    <div>
-                        <h4>Siti Nurhaliza</h4>
-                        <p>Project Manager, IKN Development</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Testimonial 4 -->
-            <div class="testimonial-card">
-                <div class="testimonial-rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <p class="testimonial-text">
-                    "Aplikasi Mobile Presence memudahkan tracking kehadiran karyawan kami yang tersebar di berbagai lokasi. Fitur GPS dan foto real-time sangat membantu proses monitoring."
-                </p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar">
-                        <i class='bx bx-user'></i>
-                    </div>
-                    <div>
-                        <h4>Andi Wijaya</h4>
-                        <p>HR Director, PT Logistik Nusantara</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Testimonial 5 -->
-            <div class="testimonial-card">
-                <div class="testimonial-rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <p class="testimonial-text">
-                    "Sistem AI Detection untuk smoke and fire dari OTI menjadi solusi tepat untuk meningkatkan keamanan pabrik kami. Akurasi deteksi yang tinggi dan notifikasi real-time sangat membantu tim safety."
-                </p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar">
-                        <i class='bx bx-user'></i>
-                    </div>
-                    <div>
-                        <h4>Rudi Hartono</h4>
-                        <p>Plant Manager, PT Petrokimia</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Testimonial 6 -->
-            <div class="testimonial-card">
-                <div class="testimonial-rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <p class="testimonial-text">
-                    "Visitor Management System membuat proses penerimaan tamu di kantor kami menjadi lebih profesional dan terorganisir. Data terintegrasi dengan baik dan laporan mudah diakses."
-                </p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar">
-                        <i class='bx bx-user'></i>
-                    </div>
-                    <div>
-                        <h4>Dewi Lestari</h4>
-                        <p>Office Manager, Bank Nusantara</p>
-                    </div>
-                </div>
-            </div>
+            @endforelse
         </div>
     </div>
 </section>
@@ -543,78 +447,31 @@
             <p class="modern-section-subtitle">Berbagai perusahaan dan instansi terkemuka di Indonesia yang telah mempercayai solusi teknologi kami</p>
         </div>
         
+        @php
+            $clients = \App\Models\Client::featured()->ordered()->take(6)->get();
+        @endphp
+        
         <div class="client-company-grid">
-            <!-- Client 1: PLN Indonesia Power -->
+            @forelse($clients as $client)
             <div class="client-company-card">
                 <div class="client-logo-placeholder">
-                    <i class='bx bx-bolt'></i>
+                    @if($client->logo_path)
+                        <img src="{{ asset('storage/' . $client->logo_path) }}" alt="{{ $client->company_name }}" style="width: 100%; height: 100%; object-fit: contain; padding: 10px;">
+                    @else
+                        <i class='{{ $client->icon_class }}'></i>
+                    @endif
                 </div>
-                <h3 class="client-company-name">PLN Indonesia Power</h3>
-                <span class="client-industry-tag">Energy Sector</span>
+                <h3 class="client-company-name">{{ $client->company_name }}</h3>
+                <span class="client-industry-tag">{{ $client->industry_sector }}</span>
                 <p class="client-company-description">
-                    BUMN yang bergerak di bidang pembangkit tenaga listrik dengan kapasitas 7,000+ MW. Menggunakan Dashboard Monitoring PLN untuk optimasi operasional.
+                    {{ $client->description }}
                 </p>
             </div>
-            
-            <!-- Client 2: IKN Nusantara -->
-            <div class="client-company-card">
-                <div class="client-logo-placeholder">
-                    <i class='bx bx-buildings'></i>
-                </div>
-                <h3 class="client-company-name">IKN Nusantara</h3>
-                <span class="client-industry-tag">Smart City</span>
-                <p class="client-company-description">
-                    Proyek ibu kota negara Indonesia yang menerapkan konsep smart city modern. Implementasi Smartpole untuk infrastruktur digital terintegrasi.
-                </p>
+            @empty
+            <div style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
+                <p>Client information akan segera ditampilkan</p>
             </div>
-            
-            <!-- Client 3: Industri Manufaktur -->
-            <div class="client-company-card">
-                <div class="client-logo-placeholder">
-                    <i class='bx bx-cog'></i>
-                </div>
-                <h3 class="client-company-name">PT Industri Manufaktur</h3>
-                <span class="client-industry-tag">Manufacturing</span>
-                <p class="client-company-description">
-                    Perusahaan manufaktur dengan 500+ karyawan dan sertifikasi ISO. Menggunakan K3 Monitoring System untuk keselamatan kerja dan compliance.
-                </p>
-            </div>
-            
-            <!-- Client 4: Bank Nusantara -->
-            <div class="client-company-card">
-                <div class="client-logo-placeholder">
-                    <i class='bx bx-bank'></i>
-                </div>
-                <h3 class="client-company-name">Bank Nusantara</h3>
-                <span class="client-industry-tag">Banking</span>
-                <p class="client-company-description">
-                    Institusi perbankan dengan 50+ cabang di seluruh Indonesia. Implementasi Visitor Management System untuk keamanan dan profesionalitas kantor.
-                </p>
-            </div>
-            
-            <!-- Client 5: PT Petrokimia -->
-            <div class="client-company-card">
-                <div class="client-logo-placeholder">
-                    <i class='bx bx-droplet'></i>
-                </div>
-                <h3 class="client-company-name">PT Petrokimia</h3>
-                <span class="client-industry-tag">Petrochemical</span>
-                <p class="client-company-description">
-                    Perusahaan petrokimia dengan fokus tinggi pada industrial safety. Menggunakan AI Smoke/Fire Detection untuk deteksi dini bahaya kebakaran.
-                </p>
-            </div>
-            
-            <!-- Client 6: PT Logistik Nusantara -->
-            <div class="client-company-card">
-                <div class="client-logo-placeholder">
-                    <i class='bx bx-package'></i>
-                </div>
-                <h3 class="client-company-name">PT Logistik Nusantara</h3>
-                <span class="client-industry-tag">Logistics</span>
-                <p class="client-company-description">
-                    Perusahaan logistik dengan jaringan distribusi nasional. Menggunakan Mobile Presence App untuk tracking kehadiran karyawan di berbagai lokasi.
-                </p>
-            </div>
+            @endforelse
         </div>
     </div>
 </section>

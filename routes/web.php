@@ -100,6 +100,32 @@ Route::prefix('admin')->group(function () {
             return view('admin.products.edit', ['productId' => $id]);
         })->name('admin.products.edit');
         
+        // Testimonials management
+        Route::get('/testimonials', function() {
+            return view('admin.testimonials.index');
+        })->name('admin.testimonials.index');
+        
+        Route::get('/testimonials/create', function() {
+            return view('admin.testimonials.create');
+        })->name('admin.testimonials.create');
+        
+        Route::get('/testimonials/{id}/edit', function($id) {
+            return view('admin.testimonials.edit', ['testimonialId' => $id]);
+        })->name('admin.testimonials.edit');
+        
+        // Clients management
+        Route::get('/clients', function() {
+            return view('admin.clients.index');
+        })->name('admin.clients.index');
+        
+        Route::get('/clients/create', function() {
+            return view('admin.clients.create');
+        })->name('admin.clients.create');
+        
+        Route::get('/clients/{id}/edit', function($id) {
+            return view('admin.clients.edit', ['clientId' => $id]);
+        })->name('admin.clients.edit');
+        
         // Contacts management
         Route::get('/contacts', function() {
             $contacts = \App\Models\Contact::orderBy('created_at', 'desc')->paginate(20);
