@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Artisan;
@@ -36,24 +38,37 @@ Route::get('/testimonial', function () {
 
 // Product routes (public)
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
-Route::get('/products/{product}', [ProductController::class, 'show'])->name('products.show');
+Route::get('/products/{product:slug}', [ProductController::class, 'show'])->name('products.show');
 
 // Contact form submission
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
-// Admin routes (protected by auth middleware)
-Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
-    Route::get('/products', function () {
-        return view('admin.products.index');
-    })->name('products.index');
+// Admin Authentication Routes
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+    Route::post('/login', [AuthController::class, 'login'])->name('login.post');
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
     
-    Route::get('/products/create', function () {
-        return view('admin.products.create');
-    })->name('products.create');
-    
-    Route::get('/products/{product}/edit', function ($product) {
-        return view('admin.products.edit', ['productId' => $product]);
-    })->name('products.edit');
+    // Protected Admin Routes
+    Route::middleware(['admin.auth'])->group(function () {
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+        
+        Route::get('/products', function () {
+            return view('admin.products.index');
+        })->name('products.index');
+        
+        Route::get('/products/create', function () {
+            return view('admin.products.create');
+        })->name('products.create');
+        
+        Route::get('/products/{product}/edit', function ($product) {
+            return view('admin.products.edit', ['productId' => $product]);
+        })->name('products.edit');
+        
+        Route::get('/contacts', function () {
+            return view('admin.contacts.index');
+        })->name('contacts.index');
+    });
 });
 
 // Utility route
