@@ -33,18 +33,17 @@
                 <div class="col-lg-7 col-xxl-6">
                     <div class="about-content about-width">
                         <span>About Us</span>
-                        <h2>We Are Helping People to Reach Their Customer Since 2005</h2>
+                        <h2>OME TEKNOLOGI INDONESIA</h2>
                         <p>
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                            PT. OME TEKNOLOGI INDONESIA adalah perusahaan yang berfokus pada pengembangan, manufaktur, penelitian, dan
+                            dukungan produk dan layanan berbasis teknologi. Produk teknologi yang dihasilkan
+                            bisa berupa perangkat keras, perangkat lunak, dan layanan berbasis internet.
                         </p>
                         <p>
-                            As opposed to using 'Content here, content here', making it look
-                            like readable English. Many desktop publishing packages and web
-                            page editors now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still
-                            in their infancy. Various versions have evolved over the years.
+                            Kami menyediakan berbagai solusi teknologi inovatif termasuk Software Development, Mobile Presence, 
+                            Smartpole, Waste Monitoring, HT Android, dan CCTV Artificial Intelligence. Dengan komitmen untuk 
+                            memberikan solusi terbaik yang sesuai dengan kebutuhan di Indonesia, kami terus berinovasi 
+                            mengembangkan produk dan layanan karya anak bangsa.
                         </p>
 
                         <div class="about-btn">
