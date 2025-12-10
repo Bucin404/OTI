@@ -6,15 +6,15 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="banner-text">
-                    <span>Solusi Teknologi Terpadu</span>
-                    <h1>Inovasi Teknologi untuk Masa Depan Indonesia</h1>
+                    <span>Security System</span>
+                    <h1>Keamanan Modern untuk Dunia Digital</h1>
                     <p>
-                        PT. OME TEKNOLOGI INDONESIA adalah perusahaan yang berfokus pada pengembangan, manufaktur, penelitian, dan dukungan produk dan layanan berbasis teknologi untuk mendukung transformasi digital Indonesia.
+                        PT. OME TEKNOLOGI INDONESIA adalah perusahan supplier dan kontraktor Produk Mekanikal dan Elektrikal.
                     </p>
 
                     <div class="banner-btn">
-                        <a href="/contact" class="default-btn">Hubungi Kami</a>
-                        <a href="/products" class="default-btn active">Lihat Produk</a>
+                        <a href="/contact" class="default-btn">Contact Us</a>
+                        <a href="#" class="default-btn active">Know More</a>
                     </div>
                 </div>
             </div>
@@ -95,17 +95,17 @@
 
             <div class="col-lg-7 col-xxl-6">
                 <div class="about-content about-width">
-                    <span>Tentang Kami</span>
-                    <h2>Perusahaan Teknologi Terpercaya di Indonesia</h2>
+                    <span>About Us</span>
+                    <h2>Kami Membantu Orang Menjangkau Pelanggan Mereka</h2>
                     <p>
-                        PT. OME TEKNOLOGI INDONESIA adalah perusahaan yang berfokus pada pengembangan, manufaktur, penelitian, dan dukungan produk dan layanan berbasis teknologi. Kami menyediakan solusi teknologi inovatif yang mencakup perangkat keras, perangkat lunak, dan layanan berbasis internet.
+                        Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya. Inti dari penggunaan Lorem Ipsum adalah karena ia memiliki distribusi huruf yang kurang lebih normal.
                     </p>
                     <p>
-                        Dengan komitmen untuk memberikan solusi terbaik yang sesuai dengan kebutuhan di Indonesia, kami terus berinovasi mengembangkan produk dan layanan karya anak bangsa untuk mendukung transformasi digital dan smart city di Indonesia.
+                        Berbeda dengan menggunakan 'Konten di sini, konten di sini', membuatnya tampak seperti bahasa Inggris yang dapat dibaca. Banyak paket penerbitan desktop dan editor halaman web sekarang menggunakan Lorem Ipsum sebagai teks model default mereka, dan pencarian untuk 'lorem ipsum' akan mengungkap banyak situs web yang masih dalam tahap awal. Berbagai versi telah berkembang selama bertahun-tahun.
                     </p>
 
                     <div class="about-btn">
-                        <a href="/about" class="default-btn">Selengkapnya</a>
+                        <a href="#" class="default-btn">Know More</a>
                     </div>
                 </div>
             </div>
@@ -118,93 +118,93 @@
 <section class="service-area pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span>Layanan Kami</span>
-            <h2>Solusi Teknologi Komprehensif untuk Kebutuhan Bisnis Anda</h2>
+            <span>Our Service</span>
+            <h2>Kami Menyediakan Layanan Pertumbuhan Bisnis Tercepat & Unik</h2>
             <p>
-                Kami menyediakan berbagai layanan teknologi inovatif untuk mendukung transformasi digital perusahaan Anda.
+                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya.
             </p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="/services">
+                    <a href="service-details.html">
                         <img src="assets/img/service-icon/1.png" alt="Images">
                     </a>
-                    <a href="/services">
-                        <h3>Software Development</h3>
+                    <a href="service-details.html">
+                        <h3>SEO Optimization</h3>
                     </a>
                     <p>
-                        Pengembangan perangkat lunak custom seperti aplikasi web, mobile, dan sistem operasi sesuai kebutuhan bisnis Anda.
+                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="/services">
+                    <a href="service-details.html">
                         <img src="assets/img/service-icon/2.png" alt="Images">
                     </a>
-                    <a href="/services">
-                        <h3>IoT & Smart City</h3>
+                    <a href="service-details.html">
+                        <h3>Social Marketing</h3>
                     </a>
                     <p>
-                        Solusi Internet of Things untuk smart city, monitoring sistem, dan otomasi berbasis sensor dan teknologi terkini.
+                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="/services">
+                    <a href="service-details.html">
                         <img src="assets/img/service-icon/3.png" alt="Images">
                     </a>
-                    <a href="/services">
-                        <h3>Artificial Intelligence</h3>
+                    <a href="service-details.html">
+                        <h3>Content Marketing</h3>
                     </a>
                     <p>
-                        Implementasi AI untuk deteksi objek, face recognition, dan analisis video untuk meningkatkan keamanan dan efisiensi.
+                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="/services">
+                    <a href="service-details.html">
                         <img src="assets/img/service-icon/4.png" alt="Images">
                     </a>
-                    <a href="/services">
-                        <h3>Access Control System</h3>
+                    <a href="service-details.html">
+                        <h3>Analytical Analysis</h3>
                     </a>
                     <p>
-                        Sistem kontrol akses terpadu dengan turnstile gate, face recognition, dan parking management untuk keamanan maksimal.
+                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="/services">
+                    <a href="service-details.html">
                         <img src="assets/img/service-icon/5.png" alt="Images">
                     </a>
-                    <a href="/services">
-                        <h3>Mobile Solutions</h3>
+                    <a href="service-details.html">
+                        <h3>App Development</h3>
                     </a>
                     <p>
-                        Pengembangan aplikasi mobile untuk absensi, HT Android, dan berbagai solusi mobilitas untuk meningkatkan produktivitas.
+                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="service-card">
-                    <a href="/services">
+                    <a href="service-details.html">
                         <img src="assets/img/service-icon/6.png" alt="Images">
                     </a>
-                    <a href="/services">
-                        <h3>Monitoring Systems</h3>
+                    <a href="service-details.html">
+                        <h3>Web Development</h3>
                     </a>
                     <p>
-                        Dashboard monitoring real-time untuk berbagai sistem seperti smartpole, limbah, CCTV, dan infrastruktur lainnya.
+                        Sudah menjadi fakta yang umum bahwa pengunjung akan terganggu oleh konten halaman yang dapat dibaca saat melihat.
                     </p>
                 </div>
             </div>
@@ -222,10 +222,10 @@
 
             <div class="col-lg-6 col-xxl-5">
                 <div class="faq-content">
-                    <span>Mengapa Memilih Kami</span>
-                    <h2>Partner Teknologi Terpercaya untuk Transformasi Digital Anda</h2>
+                    <span>Why Choose Us</span>
+                    <h2>Kami adalah Perusahaan SEO Berperingkat Teratas & Berdedikasi</h2>
                     <p>
-                        PT. OME TEKNOLOGI INDONESIA adalah pilihan tepat untuk solusi teknologi Anda. Kami memiliki pengalaman luas dalam mengembangkan dan mengimplementasikan berbagai sistem teknologi yang telah terbukti meningkatkan efisiensi dan keamanan.
+                        Berbeda dengan penggunaan Konten di sini, konten di sini, membuatnya tampak seperti bahasa Inggris yang dapat dibaca. Banyak paket penerbitan desktop dan editor halaman web sekarang menggunakan Lorem Ipsum sebagai teks model default mereka.
                     </p>
                 </div>
 
@@ -234,12 +234,13 @@
                         <li class="accordion-item">
                             <a class="accordion-title" href="javascript:void(0)">
                                 <i class='bx bx-chevron-down'></i>
-                                Produk Karya Anak Bangsa
+                                Eksplorasi Penelitian Hebat
                             </a>
 
                             <div class="accordion-content">
                                 <p>
-                                    Kami mengembangkan produk dan solusi teknologi yang dirancang khusus untuk kebutuhan Indonesia, dengan dukungan aplikasi dan sistem karya anak bangsa yang mudah digunakan dan dapat diandalkan.
+                                    Lorem ipsum dolor sit amet, consectetur adipis
+                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </li>
@@ -247,12 +248,13 @@
                         <li class="accordion-item">
                             <a class="accordion-title" href="javascript:void(0)">
                                 <i class='bx bx-chevron-down'></i>
-                                Teknologi Terkini
+                                Pemahaman yang Luar Biasa
                             </a>
 
                             <div class="accordion-content">
                                 <p>
-                                    Menggunakan teknologi terbaru seperti AI, IoT, dan cloud computing untuk memberikan solusi yang modern, efisien, dan dapat berkembang sesuai kebutuhan bisnis Anda.
+                                    Lorem ipsum dolor sit amet, consectetur adipis
+                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </li>
@@ -260,12 +262,13 @@
                         <li class="accordion-item">
                             <a class="accordion-title" href="javascript:void(0)">
                                 <i class='bx bx-chevron-down'></i>
-                                Pengalaman Terpercaya
+                                Peringkat Teratas
                             </a>
 
                             <div class="accordion-content">
                                 <p>
-                                    Telah dipercaya oleh berbagai klien termasuk PLN Indonesia Power dan Ibu Kota Nusantara untuk proyek-proyek strategis dan infrastruktur teknologi skala besar.
+                                    Lorem ipsum dolor sit amet, consectetur adipis
+                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </li>
@@ -273,12 +276,13 @@
                         <li class="accordion-item">
                             <a class="accordion-title active" href="javascript:void(0)">
                                 <i class='bx bx-chevron-down'></i>
-                                Support & Maintenance
+                                100% Terpercaya
                             </a>
 
                             <div class="accordion-content show">
                                 <p>
-                                    Dukungan teknis yang responsif dan maintenance berkala untuk memastikan sistem Anda selalu berjalan optimal dan up-to-date dengan perkembangan teknologi terkini.
+                                    Lorem ipsum dolor sit amet, consectetur adipis
+                                    cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </li>
@@ -291,62 +295,71 @@
 <section class="portfolio-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span>Produk & Proyek Kami</span>
-            <h2>Solusi Teknologi yang Telah Kami Kembangkan</h2>
+            <span>Our Portfolio</span>
+            <h2>Kami Telah Berbisnis dengan Ribuan Perusahaan</h2>
             <p>
-                Portofolio produk dan proyek teknologi inovatif yang telah kami implementasikan untuk berbagai klien dan keperluan.
+                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya.
             </p>
         </div>
-        
-        @php
-            $featuredProducts = \App\Models\Product::orderBy('created_at', 'desc')->take(8)->get();
-        @endphp
-        
         <div class="portfolio-slider pt-45 owl-carousel owl-theme">
-            @forelse($featuredProducts as $product)
             <div class="portfolio-item">
                 <div class="portfolio-img">
-                    <a href="{{ route('products.show', $product->slug) }}">
-                        @if($product->image_path)
-                            <img src="{{ asset('storage/' . $product->image_path) }}" alt="{{ $product->title }}" style="height: 300px; object-fit: cover; width: 100%;">
-                        @else
-                            <img src="assets/img/portfolio/1.jpg" alt="{{ $product->title }}">
-                        @endif
-                    </a>
-                    <div class="portfolio-tag">
-                        <a href="{{ route('products.show', $product->slug) }}">
-                            <span>{{ ucfirst(str_replace('_', ' ', $product->status)) }}</span>
-                        </a>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="{{ route('products.show', $product->slug) }}">
-                            <h3>{{ $product->title }}</h3>
-                        </a>
-                        <i class='bx bxs-chevron-right'></i>
-                    </div>
-                </div>
-            </div>
-            @empty
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <a href="/products">
+                    <a href="portfolio.html">
                         <img src="assets/img/portfolio/1.jpg" alt="Portfolio Images">
                     </a>
+                    <div class="portfolio-tag">
+                        <a href="#"><span>Marketing</span></a>
+                    </div>
                     <div class="portfolio-content">
-                        <a href="/products"><h3>Lihat Produk Kami</h3></a>
+                        <a href="portfolio.html"><h3>Social Marketing</h3></a>
                         <i class='bx bxs-chevron-right'></i>
                     </div>
                 </div>
             </div>
-            @endforelse
-        </div>
-        
-        <div class="row">
-            <div class="col-12 text-center mt-4">
-                <a href="{{ route('products.index') }}" class="default-btn">
-                    Lihat Semua Produk
-                    <i class='bx bx-right-arrow-alt'></i>
-                </a>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <a href="portfolio.html">
+                        <img src="assets/img/portfolio/2.jpg" alt="Portfolio Images">
+                    </a>
+                    <div class="portfolio-tag">
+                        <a href="#"><span>Research</span></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="portfolio.html"><h3>Data Analysis</h3></a>
+                        <i class='bx bxs-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <a href="portfolio.html">
+                        <img src="assets/img/portfolio/3.jpg" alt="Portfolio Images">
+                    </a>
+                    <div class="portfolio-tag">
+                        <a href="#"><span>Optimizing</span></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="portfolio.html"><h3>SEO Optimization</h3></a>
+                        <i class='bx bxs-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <a href="portfolio.html">
+                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio Images">
+                    </a>
+                    <div class="portfolio-tag">
+                        <a href="#"><span>Development</span></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="portfolio.html"><h3>App Development</h3></a>
+                        <i class='bx bxs-chevron-right'></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -656,15 +669,15 @@
             <div class="col-lg-3 col-sm-6 col-md-3">
                 <div class="single-counter">
                     <i class='flaticon-success'></i>
-                    <h3><span class="counter">5</span>+</h3>
-                    <p>Tahun Pengalaman</p>
+                    <h3><span class="counter">1</span></h3>
+                    <p>Pengalaman Bertahun-tahun</p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-sm-6 col-md-3">
                 <div class="single-counter">
                     <i class='flaticon-launch'></i>
-                    <h3><span class="counter">100</span>+</h3>
+                    <h3><span class="counter">3</span>+</h3>
                     <p>Proyek Selesai</p>
                 </div>
             </div>
@@ -672,7 +685,7 @@
             <div class="col-lg-3 col-sm-6 col-md-3">
                 <div class="single-counter">
                     <i class='flaticon-customer'></i>
-                    <h3><span class="counter">50</span>+</h3>
+                    <h3><span class="counter">3</span>+</h3>
                     <p>Klien yang Bahagia</p>
                 </div>
             </div>
@@ -680,8 +693,8 @@
             <div class="col-lg-3 col-sm-6 col-md-3">
                 <div class="single-counter">
                     <i class='flaticon-team-building'></i>
-                    <h3><span class="counter">11</span>+</h3>
-                    <p>Produk Inovatif</p>
+                    <h3><span class="counter">25</span>+</h3>
+                    <p>Anggota Ahli</p>
                 </div>
             </div>
         </div>
@@ -690,10 +703,10 @@
 <div class="testimonial-area pt-100 pb-70">
     <div class="container-fluid">
         <div class="section-title text-center">
-            <span>Testimoni</span>
-            <h2>Kepercayaan Klien Kami</h2>
+            <span>Testimonial</span>
+            <h2>Umpan Balik Klien Kami</h2>
             <p>
-                Apa kata klien kami tentang solusi teknologi yang telah kami berikan untuk mendukung kebutuhan bisnis mereka.
+                Sudah menjadi fakta umum bahwa pembaca akan terganggu oleh konten halaman yang mudah dibaca saat melihat tata letaknya.
             </p>
         </div>
         <div class="row align-items-center">
@@ -708,9 +721,10 @@
                             <div class="testimonial-item-img">
                                 <img src="assets/img/testimonial/t1.png" alt="Testimonial Images">
                             </div>
-                            <h3>PLN Indonesia Power</h3>
+                            <h3>John Doe</h3>
                             <p>
-                                Dashboard monitoring yang dikembangkan OTI sangat membantu kami dalam memantau operasional secara real-time. Sistem yang user-friendly dan responsif membuat pekerjaan tim kami lebih efisien.
+                                Restaurants range from inexpensive and informal lunching or dining places
+                                catering to people working nearby, with modest food served in simple settings at low prices.
                             </p>
                         </div>
 
@@ -718,9 +732,10 @@
                             <div class="testimonial-item-img">
                                 <img src="assets/img/testimonial/t2.png" alt="Testimonial Images">
                             </div>
-                            <h3>Proyek IKN</h3>
+                            <h3>Knot Doe</h3>
                             <p>
-                                Implementasi Smartpole untuk Ibu Kota Nusantara berjalan sangat lancar. Tim OTI profesional dan teknologi yang digunakan sangat canggih. Kami puas dengan hasilnya.
+                                Restaurants range from inexpensive and informal lunching or dining places
+                                catering to people working nearby, with modest food served in simple settings at low prices.
                             </p>
                         </div>
 
@@ -728,9 +743,10 @@
                             <div class="testimonial-item-img">
                                 <img src="assets/img/testimonial/t3.png" alt="Testimonial Images">
                             </div>
-                            <h3>Perusahaan Manufaktur</h3>
+                            <h3>Evanaa</h3>
                             <p>
-                                Sistem K3 Monitoring dan AI Wearpack Detection dari OTI membantu kami meningkatkan keselamatan kerja secara signifikan. Deteksi otomatis sangat akurat dan real-time.
+                                Restaurants range from inexpensive and informal lunching or dining places
+                                catering to people working nearby, with modest food served in simple settings at low prices.
                             </p>
                         </div>
                     </div>
