@@ -1057,10 +1057,10 @@ nav[role="navigation"] a {
     font-weight: 500;
     color: var(--text);
     text-decoration: none;
-    border: 2px solid #E5E7EB;
+    border: 2px solid var(--border);
     border-radius: 8px;
     transition: all 0.3s ease;
-    background: white;
+    background: var(--white);
 }
 
 nav[role="navigation"] a:hover {
@@ -1112,7 +1112,7 @@ nav[role="navigation"] span[aria-disabled="true"] {
 }
 
 .client-company-card {
-    background: white;
+    background: var(--white);
     border-radius: 16px;
     padding: 2rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
