@@ -12,9 +12,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::orderBy('created_at', 'desc')->paginate(12);
+        $products = Product::orderBy('created_at', 'desc')->paginate(9);
         
-        return view('products.index', compact('products'));
+        return view('modern-products-index', compact('products'));
     }
 
     /**
@@ -22,6 +22,6 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        return view('products.show', compact('product'));
+        return view('modern-products-show', compact('product'));
     }
 }

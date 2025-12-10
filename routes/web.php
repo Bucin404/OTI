@@ -9,31 +9,19 @@ use Illuminate\Support\Facades\Route;
 
 // Existing routes
 Route::get('/', function () {
-    return view('home');
+    return view('modern-home');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('modern-contact');
 });
 
 Route::get('/services', function () {
-    return view('service');
-});
-
-Route::get('/service-details', function () {
-    return view('service-details');
+    return view('modern-services');
 });
 
 Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/members', function () {
-    return view('member');
-});
-
-Route::get('/testimonial', function () {
-    return view('testimonial');
+    return view('modern-about');
 });
 
 // Product routes (public)
